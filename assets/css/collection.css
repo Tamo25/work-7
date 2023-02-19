@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap");
+
+/* reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* reset */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Red Rose", cursive;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 49px 68px;
+  align-items: center;
+  border: 1px solid #000000;
+}
+header nav ul {
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+}
+header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: orangered;
+}
+
+header input {
+  height: 41px;
+  width: 336px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #4b4b4b;
+  padding: 14px 42px;
+  /* background-image: url('assets/images/search.svg');  */
+}
+header div h1 {
+  font-family: Rufina;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+/* section-1 */
+
+.head {
+  display: flex;
+  gap: 14px;
+  padding: 40px 285px;
+}
+.head div {
+  padding: 6px 24px;
+  border: 0.5px solid #eaeaea;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* section-2 */
+.palettes img {
+  width: 100%;
+  position: relative;
+}
+.palettes p {
+  position: absolute;
+  bottom: 38%;
+  left: 35%;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #fff;
+}
+.palettes:hover {
+  opacity: 0.5;
+}
+.cards {
+  padding: 100px 160px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 63px;
+}
+.cards .box {
+  border: 1px solid #eaeaea;
+  width: 346px;
+  height: 314px;
+}
+.cards article div {
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+}
+.color-1 {
+  background: #d12529;
+}
+.color-2 {
+  background: #394430;
+}
+.color-3 {
+  background: #fc739f;
+}
+.color-4 {
+  background: #fa9f4a;
+}
+.color-5 {
+  background: #a13583;
+}
+.flex {
+  display: flex;
+  gap: 13.5px;
+  margin-top: 10px;
+}
+
+.flex div p {
+  margin-top: 70px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 13px;
+}
+.color-6 {
+  background: #ff8601;
+}
+.color-7 {
+  background: #f2eae7;
+}
+.color-8 {
+  background: #430001;
+}
+.color-9 {
+  background: #15100f;
+}
+.color-10 {
+  background: #e59222;
+}
+.color-11 {
+  background: #7f73b5;
+}
+.color-12 {
+  background: #e2dfe6;
+}
+.color-13 {
+  background: #534090;
+}
+.color-14 {
+  background: #0e44a7;
+}
+.color-15 {
+  background: #050408;
+}
+.color-16 {
+  background: #f6f6f8;
+}
+.color-17 {
+  background: #fdcf05;
+}
+.color-18 {
+  background: #49403e;
+}
+.color-19 {
+  background: #e6d9c9;
+}
+.color-20 {
+  background: #f9e822;
+}
+.color-21 {
+  background: #007cc2;
+}
+.color-22 {
+  background: #01a0d9;
+}
+.color-23 {
+  background: #de9e00;
+}
+.color-24 {
+  background: #cddd97;
+}
+.color-25 {
+  background: #dfd046;
+}
+.color-26 {
+  background: #f5bccf;
+}
+.color-27 {
+  background: #e1d953;
+}
+.color-28 {
+  background: #d09231;
+}
+.color-29 {
+  background: #563e43;
+}
+.color-30 {
+  background: #a9c12a;
+}
